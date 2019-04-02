@@ -52,9 +52,9 @@
 									<div class="slider-wrapper">
 										<div id="mainSlider" class="nivoSlider">
                                                   
-											<img src="<c:url value="/img/bia2.jpg"/>" alt="main slider" title="#htmlcaption"/>
+											<img src="<c:url value="/resources/img/bia2.jpg"/>" alt="main slider" title="#htmlcaption"/>
                                                                                         
-                                                                                        <img height="484" width="847" src="<c:url value="/img/bia3.jpg"/>" alt="main slider" title="#htmlcaption2"/>
+                                                                                        <img height="484" width="847" src="<c:url value="/resources/img/bia3.jpg"/>" alt="main slider" title="#htmlcaption2"/>
 										</div>
 										<div id="htmlcaption" class="nivo-html-caption slider-caption">
 											<div class="slider-progress"></div>
