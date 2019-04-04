@@ -24,9 +24,9 @@ public class thanhvien {
     private String DiaChi;
     private String MatKhau;
     
-    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-    @JoinColumn(name = "MaGioHang")
-    private List<giohang> listgiohang;
+//    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+//    @JoinColumn(name = "MaGioHang")
+//    private List<giohang> listgiohang;
 
     public thanhvien() {
     }
@@ -79,13 +79,13 @@ public class thanhvien {
         this.MatKhau = MatKhau;
     }
 
-    public List<giohang> getListgiohang() {
-        return listgiohang;
-    }
-
-    public void setListgiohang(List<giohang> listgiohang) {
-        this.listgiohang = listgiohang;
-    }
+//    public List<giohang> getListgiohang() {
+//        return listgiohang;
+//    }
+//
+//    public void setListgiohang(List<giohang> listgiohang) {
+//        this.listgiohang = listgiohang;
+//    }
     
     
 }

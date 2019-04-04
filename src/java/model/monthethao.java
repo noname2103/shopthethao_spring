@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 /**
 /**
@@ -23,9 +24,9 @@ public class monthethao {
     private String TenMon ;
     private String HinhAnh ;
     
-    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-    @JoinColumn(name = "MaMon")
-    private List<monthethao> listmonthethao;
+//    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+//    @JoinColumn(name = "MaMon")
+//    private List<monthethao> listmonthethao;
 
     public monthethao() {
     }
@@ -60,12 +61,12 @@ public class monthethao {
         this.HinhAnh = HinhAnh;
     }
 
-    public List<monthethao> getListmonthethao() {
-        return listmonthethao;
-    }
-
-    public void setListmonthethao(List<monthethao> listmonthethao) {
-        this.listmonthethao = listmonthethao;
-    }
+//    public List<monthethao> getListmonthethao() {
+//        return listmonthethao;
+//    }
+//
+//    public void setListmonthethao(List<monthethao> listmonthethao) {
+//        this.listmonthethao = listmonthethao;
+//    }
     
 }

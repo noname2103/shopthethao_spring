@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping (value = "/home")
 public class HomeController {
     
-    @RequestMapping (value = "/index2")
-    public String index2()
+    @RequestMapping (value = "/index")
+    public String index()
     {
         return "jsp/index";
     }

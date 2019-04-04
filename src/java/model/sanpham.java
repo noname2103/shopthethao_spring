@@ -23,12 +23,12 @@ import javax.persistence.OneToMany;
 public class sanpham {
     @Id
     private Integer MaSP;
-    @ManyToOne
-    @JoinColumn(name ="loaisanpham")
-    private loaisanpham loaisanpham;
-    @ManyToOne
-    @JoinColumn(name ="monthethao")
-    private monthethao monthethao;
+//    @ManyToOne
+//    @JoinColumn(name ="loaisanpham")
+    private Integer loaisanpham;
+//    @ManyToOne
+//    @JoinColumn(name ="monthethao")
+    private Integer monthethao;
     
     private String TenSP;
     private String HinhAnh ;
@@ -44,7 +44,7 @@ public class sanpham {
     public sanpham() {
     }
 
-    public sanpham(Integer MaSP, loaisanpham loaisanpham, monthethao monthethao, String TenSP, String HinhAnh, String MoTa, Integer Gia, Integer MaMon, Integer MaLoai) {
+    public sanpham(Integer MaSP, Integer loaisanpham, Integer monthethao, String TenSP, String HinhAnh, String MoTa, Integer Gia, Integer MaMon, Integer MaLoai) {
         this.MaSP = MaSP;
         this.loaisanpham = loaisanpham;
         this.monthethao = monthethao;
@@ -64,19 +64,19 @@ public class sanpham {
         this.MaSP = MaSP;
     }
 
-    public loaisanpham getLoaisanpham() {
+    public Integer getLoaisanpham() {
         return loaisanpham;
     }
 
-    public void setLoaisanpham(loaisanpham loaisanpham) {
+    public void setLoaisanpham(Integer loaisanpham) {
         this.loaisanpham = loaisanpham;
     }
 
-    public monthethao getMonthethao() {
+    public Integer getMonthethao() {
         return monthethao;
     }
 
-    public void setMonthethao(monthethao monthethao) {
+    public void setMonthethao(Integer monthethao) {
         this.monthethao = monthethao;
     }
 

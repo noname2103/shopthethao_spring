@@ -18,12 +18,12 @@ import javax.persistence.OneToOne;
 public class giohang {
     @Id
     private Integer MaGH;
-    @OneToOne
-    @JoinColumn(name ="sanpham")
-    private sanpham sanpham;
-    @OneToOne
-    @JoinColumn(name ="thanhvien")
-    private thanhvien thanhvien;
+//    @OneToOne
+//    @JoinColumn(name ="sanpham")
+    private Integer sanpham;
+//    @OneToOne
+//    @JoinColumn(name ="thanhvien")
+    private Integer thanhvien;
     private Integer MaTV;
     private Integer MaSP;
     private Integer TongGia;
@@ -32,7 +32,7 @@ public class giohang {
     public giohang() {
     }
 
-    public giohang(Integer MaGH, sanpham sanpham, thanhvien thanhvien, Integer MaTV, Integer MaSP, Integer TongGia, String DiaChiGiaoHang) {
+    public giohang(Integer MaGH, Integer sanpham, Integer thanhvien, Integer MaTV, Integer MaSP, Integer TongGia, String DiaChiGiaoHang) {
         this.MaGH = MaGH;
         this.sanpham = sanpham;
         this.thanhvien = thanhvien;
@@ -50,19 +50,19 @@ public class giohang {
         this.MaGH = MaGH;
     }
 
-    public sanpham getSanpham() {
+    public Integer getSanpham() {
         return sanpham;
     }
 
-    public void setSanpham(sanpham sanpham) {
+    public void setSanpham(Integer sanpham) {
         this.sanpham = sanpham;
     }
 
-    public thanhvien getThanhvien() {
+    public Integer getThanhvien() {
         return thanhvien;
     }
 
-    public void setThanhvien(thanhvien thanhvien) {
+    public void setThanhvien(Integer thanhvien) {
         this.thanhvien = thanhvien;
     }
 

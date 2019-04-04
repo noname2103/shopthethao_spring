@@ -25,7 +25,7 @@
 		
 		<!-- animate CSS
 		============================================ -->
-        <link rel="stylesheet" href="/shopthethao/public/css/animate.css">			
+        <link rel="stylesheet" href="../shopthethao/public/css/animate.css">			
 		
 		<!-- FANCYBOX CSS
 		============================================ -->			
