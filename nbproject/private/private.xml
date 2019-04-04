@@ -3,15 +3,21 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/applicationContext.xml</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/header.jsp</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/src/java/controller/HomeController.java</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/index.jsp</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/dispatcher-servlet.xml</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/src/java/hibernate.cfg.xml</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/web/redirect.jsp</file>
-            <file>file:/C:/Users/DELL/Documents/NetBeansProjects/shopthethao_spring/src/java/model/admin.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/controller/HomeController.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/thanhvien.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/redirect.jsp</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/footer.jsp</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/monthethao.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/sanpham.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/register.jsp</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/index.jsp</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/jsp/header.jsp</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/giohang.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/web/WEB-INF/applicationContext.xml</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/admin.java</file>
+            <file>file:/C:/Users/trung/OneDrive/Documents/NetBeansProjects/shopthethao_spring/src/java/model/loaisanpham.java</file>
         </group>
     </open-files>
 </project-private>
