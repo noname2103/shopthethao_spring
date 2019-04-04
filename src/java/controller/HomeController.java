@@ -6,10 +6,20 @@
 
 package controller;
 
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
 /**
  *
  * @author DELL
  */
+@Controller
+@RequestMapping (value = "/home")
 public class HomeController {
     
+    @RequestMapping (value = "/index")
+    public String index()
+    {
+        return "jsp/index";
+    }
 }

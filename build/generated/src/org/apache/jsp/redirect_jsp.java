@@ -43,9 +43,8 @@ public final class redirect_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write('\n');
       out.write('\n');
- response.sendRedirect("index.htm"); 
+ response.sendRedirect("home/index.html"); 
       out.write('\n');
- response.sendRedirect("list_product.htm"); 
       out.write('\n');
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

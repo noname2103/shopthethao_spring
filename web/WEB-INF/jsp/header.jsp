@@ -14,9 +14,7 @@
         <title>Home Variation 2</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- Favicon
-		============================================ -->
+        <!-- Favicon ============================================ -->
 		<link rel="shortcut icon" type="image/x-icon" href="/shopthethao/public/img/favicon.png">
 		
 		<!-- FONTS
