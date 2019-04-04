@@ -8,6 +8,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 /**
  *
  * @author trung
@@ -16,10 +18,10 @@ import javax.persistence.ManyToMany;
 public class giohang {
     @Id
     private Integer MaGH;
-    @ManyToMany
+    @OneToOne
     @JoinColumn(name ="sanpham")
     private sanpham sanpham;
-    @ManyToMany
+    @OneToOne
     @JoinColumn(name ="thanhvien")
     private thanhvien thanhvien;
     private Integer MaTV;
