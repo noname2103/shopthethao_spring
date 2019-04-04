@@ -43,7 +43,7 @@ public final class redirect_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\r\n");
       out.write("\r\n");
- response.sendRedirect("index");
+ response.sendRedirect("index"); 
       out.write("\r\n");
       out.write("\r\n");
     } catch (Throwable t) {
