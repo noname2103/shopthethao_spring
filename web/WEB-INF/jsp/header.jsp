@@ -29,27 +29,27 @@
 		
 		<!-- FANCYBOX CSS
 		============================================ -->			
-        <link rel="stylesheet" href="/shopthethao/public/css/jquery.fancybox.css">	
+        <link rel="stylesheet" href="../shopthethao/public/css/jquery.fancybox.css">	
 		
 		<!-- BXSLIDER CSS
 		============================================ -->			
-        <link rel="stylesheet" href="/shopthethao/public/css/jquery.bxslider.css">			
+        <link rel="stylesheet" href="../shopthethao/public/css/jquery.bxslider.css">			
 				
 		<!-- MEANMENU CSS
 		============================================ -->			
-        <link rel="stylesheet" href="/shopthethao/public/css/meanmenu.min.css">	
+        <link rel="stylesheet" href="../shopthethao/public/css/meanmenu.min.css">	
 		
 		<!-- JQUERY-UI-SLIDER CSS
 		============================================ -->			
-        <link rel="stylesheet" href="/shopthethao/public/css/jquery-ui-slider.css">		
+        <link rel="stylesheet" href="../shopthethao/public/css/jquery-ui-slider.css">		
 		
 		<!-- NIVO SLIDER CSS
 		============================================ -->			
-        <link rel="stylesheet" href="/shopthethao/public/css/nivo-slider.css">
+        <link rel="stylesheet" href="../shopthethao/public/css/nivo-slider.css">
 		
 		<!-- OWL CAROUSEL CSS 	
 		============================================ -->	
-        <link rel="stylesheet" href="/shopthethao/public/css/owl.carousel.css">
+        <link rel="stylesheet" href="../shopthethao/public/css/owl.carousel.css">
 		
 		<!-- OWL CAROUSEL THEME CSS 	
 		============================================ -->	
