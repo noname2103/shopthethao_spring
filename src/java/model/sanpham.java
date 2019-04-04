@@ -44,7 +44,7 @@ public class sanpham {
     public sanpham() {
     }
 
-    public sanpham(Integer MaSP, loaisanpham loaisanpham, monthethao monthethao, String TenSP, String HinhAnh, Text MoTa, Integer Gia, Integer MaMon, Integer MaLoai) {
+    public sanpham(Integer MaSP, loaisanpham loaisanpham, monthethao monthethao, String TenSP, String HinhAnh, String MoTa, Integer Gia, Integer MaMon, Integer MaLoai) {
         this.MaSP = MaSP;
         this.loaisanpham = loaisanpham;
         this.monthethao = monthethao;
