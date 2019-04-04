@@ -12,6 +12,7 @@ import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 /**
@@ -22,23 +23,23 @@ import javax.persistence.OneToMany;
 public class sanpham {
     @Id
     private Integer MaSP;
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name ="loaisanpham")
     private loaisanpham loaisanpham;
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name ="monthethao")
     private monthethao monthethao;
     
     private String TenSP;
     private String HinhAnh ;
-    private Text MoTa;
+    private String MoTa;
     private Integer Gia ;
     private Integer MaMon;
     private Integer MaLoai;
 
-    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-    @JoinColumn(name = "MaGioHang")
-    private List<giohang> listgiohang;
+//    @OneToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+//    @JoinColumn(name = "MaGioHang")
+//    private List<giohang> listgiohang;
 
     public sanpham() {
     }
@@ -95,11 +96,11 @@ public class sanpham {
         this.HinhAnh = HinhAnh;
     }
 
-    public Text getMoTa() {
+    public String getMoTa() {
         return MoTa;
     }
 
-    public void setMoTa(Text MoTa) {
+    public void setMoTa(String MoTa) {
         this.MoTa = MoTa;
     }
 
@@ -127,12 +128,12 @@ public class sanpham {
         this.MaLoai = MaLoai;
     }
 
-    public List<giohang> getListgiohang() {
-        return listgiohang;
-    }
-
-    public void setListgiohang(List<giohang> listgiohang) {
-        this.listgiohang = listgiohang;
-    }
+//    public List<giohang> getListgiohang() {
+//        return listgiohang;
+//    }
+//
+//    public void setListgiohang(List<giohang> listgiohang) {
+//        this.listgiohang = listgiohang;
+//    }
     
 }
